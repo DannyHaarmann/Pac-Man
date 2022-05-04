@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Enemy
   - MazeGeo
+  - Pellet
+  - LeftTP
+  - RightTP
   layers:
   - Default
   - TransparentFX
