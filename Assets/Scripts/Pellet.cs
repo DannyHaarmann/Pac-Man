@@ -6,6 +6,8 @@ public class Pellet : MonoBehaviour
 {
     //TextMesh theScoreTextMesh;
 
+
+
     //public GameObject scoreText;
     //private int count;
 
@@ -20,20 +22,16 @@ public class Pellet : MonoBehaviour
     void Update()
     {
         //this.theScoreTextMesh.text = "Score:" + count;
-        
-    }
-    void OnCollisionEnter(Collision other)
-    {
-        if (other.gameObject.tag.Equals("Player"))
-        {
-            {
-                //count = count + 1;
-                //this.theScoreTextMesh.text = "Score:" + count;
-                Destroy(this.gameObject);
-                print("I should add");
-            }
 
-        }
+      
     }
+
+   
+
+
+
+
+
+    
 
 }
